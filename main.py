@@ -5,7 +5,7 @@ f=open("keys.txt","a")
 def run():
     a=open("use.txt","r")
     a=a.readlines()[1]
-    b=random.choice(a)+random.choice(a)+random.choice(a)
+    b=random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)
     f.write("\n"+b)
     print("Appended "+b+" to keys")
 def start2(tmes):
