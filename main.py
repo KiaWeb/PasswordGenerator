@@ -5,7 +5,8 @@ f=open("keys.txt","a")
 def run():
     a=open("use.txt","r")
     a=a.readlines()[1]
-    b=random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)+random.choice(a)
+    xn=input("How many characters would you like the password to be:")
+    b=random.choices(a,k=int(xn))
     f.write("\n"+b)
     print("Appended "+b+" to keys")
 def start2(tmes):
