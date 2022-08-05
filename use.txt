@@ -1,2 +1,1 @@
-This is use.txt. Whatever you put on the next line will be used for password generating. However, don't delete this line.
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()-=_+[]{}\|;':",.<>/?`~
+Outdated file
