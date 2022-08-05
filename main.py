@@ -1,10 +1,10 @@
 import random
 import time
 import os
+import string
 f=open("keys.txt","a")
 def run():
-    a=open("use.txt","r")
-    a=a.readlines()[1]
+    a=string.ascii_letters+string.digits
     xn=input("How many characters would you like the password to be:")
     b=random.choices(a,k=int(xn))
     f.write("\n"+b)
